@@ -17,8 +17,12 @@ do_train.sh
 *.avi
 *.mp4
 
-src/external/neural_renderer
-src/external/AlphaPose
+src/external/neural_renderer/build
+src/external/neural_renderer/dist
+src/external/neural_renderer/neural_renderer_pytorch.egg-info
+src/external/AlphaPose/models
+src/external/AlphaPose/__pycache__
+
+demo_output/
 
 *shell*
-
